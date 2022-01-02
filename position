@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* position 속성값
+
+        static, relative, absolute, fixed 
+        */
+        div {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 20px;
+            background-color: red;
+        }
+
+        .container{
+            background-color: green;
+            /* top:50px;
+            left:50px;
+            position:relative; */
+
+        }
+
+        #div1 {
+            background-color: yellow;
+            top: 30px;
+            left: 30px;
+            position: sticky;
+            /* absolute : 상위태그를 기준으로 위치가 조정된다. */
+            /* relative : 원래 위치부터 계산하여 위치 조정 */
+            /* static : 위치가 고정(태그가 위에서 아래순으로 배치) */
+            /* fixed : 화면을 기준으로 절대위치로 이동 */
+            /* sticky : 스크롤을 내려도 고정 */
+
+        }
+    </style>
+</head>
+<body>
+    <article class = "container">
+        <div></div>
+        <div></div>
+        <div id = div1> div1 </div>
+        <div></div>
+        <div></div>
+    </article>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
