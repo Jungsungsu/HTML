@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <input type = "text" placeholder="아이디" name="id">
+        <input type="password">
+        <br><br>
+
+        <label for="id"> 아이디를 작성하는 공간 </label>
+        <input type="text" id="id">
+
+        <br><br>
+        <input type="text" list="song">
+        
+        <datalist id ="song">
+            <option value=""></option>
+            <option value="다만세">소녀시대</option>
+            <option value="텔미">원더걸스</option>
+            <option value="거짓말">빅뱅</option>
+      
+        </datalist>
+
+        <br><br>
+
+        <select>
+            <option value="">메일선택</option>
+            <option value="naver.com">네이버</option>
+            <option value="gmail.com">구글</option>
+        </select>
+
+        <br><br>
+
+        축구
+        <input type="checkbox" value="축구">
+        
+        <br>
+        농구
+        <input type="checkbox" value="농구">
+
+        <br><br>
+        남자
+        <input type="radio" name="gender" value="man">
+        <br>
+        여자
+        <input type="radio" name="gender" value="woman">
+
+        <br>
+
+        <input type="file">
+        <br>
+        <input type="color">
+        <br>
+        <input type="number">
+        <br>
+        <input type ="range">
+        <br>
+        <input type="date">
+        <input type="datetime-local">
+
+        <br>
+        <br>
+        <input type="reset">
+        <input type="submit">
+
+    </form>
+</body>
+</html>
