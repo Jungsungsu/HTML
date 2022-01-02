@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div{
+        width: 50px;
+        height: 50px;
+        border-style: double;
+        border-color: black;
+    }
+    
+    #div1 {
+        background-color:red;
+        position:absolute;
+        top:0px;
+        height:10%;
+    }
+    
+    #div2 {
+        background-color:orange;
+        position: absolute;
+        top: 10px;
+        height:10%;
+        
+    }
+    #div3 {
+        background-color:blue;
+        position: absolute;
+        top:20px;
+        left:0px;
+        width: 30%;
+        height: 60%;
+    }
+
+    #div4 {
+        background-color:green;
+        position: absolute;
+        top:20px;
+        left:30px;
+        width: 15%;
+        height: 30%;
+    }
+    #div5 {
+        background-color: yellow;
+        position: absolute;
+        top:20px;
+        left:30px;
+        width: 15%;
+        height: 30%;
+    }
+    #div6 {
+        background-color:gray;
+        position: absolute;
+        bottom:0px;
+        height:20%;
+    }
+    </style>  
+</head>
+<body>
+    <div id ="div1"></div>
+    <div id ="div2"></div>
+    <div id ="div3"></div>
+    <div id ="div4"></div>
+    <div id ="div5"></div>
+    <div id ="div6"></div>  
+</body>
+</html>
