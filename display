@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div, span {
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+        }
+        /* display : inline 
+        한줄에 표현, 컨텐츠 크기가 요소의 크기가 된다.
+        
+        display : block
+        요소 하나가 한줄의 영역을 차지,  컨텐츠 크기에 상관없이
+        width와 height 크기 반영
+        */
+
+        div {
+            background-color: red;
+            display: none;
+        }
+
+        span {
+            background-color: saddlebrown;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Block -->
+    <div> </div>
+    <div> </div>
+    <div> </div>
+    <!-- Inline 컨텐트의 크기가 span의 크기 -->
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+</body>
+</html>
