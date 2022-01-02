@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* 자손,자식,자손 */
+        body p {
+            color: mediumblue;
+        }
+
+        body > li {
+            color:red
+        }
+
+        li ~ *{
+            color: slateblue;
+        }
+
+        ol > #1 {
+            color: steelblue;
+        }
+
+        strong,ol {
+            color: steelblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1> h1 </h1>
+    <p> 
+        <span>
+        <span> 1 </span>
+       </span> 
+    </p>
+    <ul>
+        <li> li </li>
+        <li> li </li>
+        <li> li </li>
+    </ul> */ -->
+
+    <div>
+        <strong> 연수생 수칙 </strong>
+
+        <ol>
+            <li id = "1"> 지각하지않기 </li>
+            <li class = "b"> 결석하지않기 </li>
+            <li class = "b"> 복습하지않기 </li>
+            <span> (불가피할 땐 꼭 담당연구원에게 미리 말하기) </span>
+        </ol>
+        <li class = "b"> 복습하지않기 </li>
+    </div>
+</body>
+</html>
