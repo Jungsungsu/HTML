@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px" align="center">
+        <caption> 연예인 정보 </caption>
+        <tr align="center">
+            <th> 컬럼의 제목등을 작성</th>
+            <th> 컬럼의 제목등을 작성</th>
+            <th> 비고 </th>
+        </tr>
+        <tr align="center">
+          <td> 아이유 </td>
+          <td align="center"> 20 </td>
+          <td rowspan="2"></td>
+        </tr>
+        <tr align="center">  
+          <td colspan="2"> 빅맨 </td>
+        </tr>
+    </table>   
+</body>
+</html>
